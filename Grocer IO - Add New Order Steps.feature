@@ -46,10 +46,9 @@ Feature: Grocer IO - Add New Order Steps
 		
 	@wip
 	Scenario: the newly added order appears in the order list on the Order page
-        Then I "see the expected order information on the screen"
-            Then I see $order_number in web browser within 10 seconds
-            And I see $customer_name in web browser within 10 seconds
-            And I see $price in web browser within 10 seconds
+        Then I see $order_number in web browser within 10 seconds
+        And I see $customer_name in web browser within 10 seconds
+        And I see $price in web browser within 10 seconds
 
 	@wip 
 	Scenario: I logout of Grocer IO
