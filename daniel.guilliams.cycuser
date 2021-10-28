@@ -1,0 +1,37 @@
+{
+  "additionalData" : {
+    "openTabs" : [ ]
+  },
+  "settings" : {
+    "EmailUsername" : "",
+    "DatastoreUrl" : "",
+    "CustomChromeBrowserLocation" : "C:\\Users\\dguilliams",
+    "DatastoreName" : "",
+    "SenderEmailAddress" : "",
+    "StoredCredentials" : [ ],
+    "SendEmailSummary" : false,
+    "CloseBrowserAfterScenario" : false,
+    "DatastorePassword" : "",
+    "WinAppDriverForceCloseLocalApp" : false,
+    "IEDriverLocation" : "C:\\Users\\dguilliams",
+    "EdgeDriverLocation" : "C:\\Users\\dguilliams",
+    "UseCustomChromeLocation" : false,
+    "EmailHost" : "",
+    "CloseBrowserOnCycleExit" : false,
+    "WinAppDriverLocation" : "C:\\Program Files (x86)\\Windows Application Driver\\WinAppDriver.exe",
+    "EmailProtocol" : "SSL",
+    "DatastoreUsername" : "",
+    "EmailPassword" : "",
+    "ProduceLocalReport" : false,
+    "IncludeStepsInGroupTestReports" : false,
+    "RecipientEmail" : "",
+    "ChromeDriverLocation" : "C:\\Users\\dguilliams\\Desktop\\Git Projects\\Chesterfield\\Chesterfield\\chromedriver.exe",
+    "KnownHostsLocation" : null,
+    "WriteToDatastore" : false,
+    "OutputDirectory" : "Output",
+    "EmailPort" : 0,
+    "DatastoreType" : "",
+    "DatastoreConnection" : "JDBC",
+    "ProduceLocalCsv" : false
+  }
+}
