@@ -20,12 +20,12 @@ Feature: Grocer IO - Add New Order Steps
 
 		When I "enter my credentials and login"
 			When I type $username in element "name:email_login" in web browser within 10 seconds
-            And I type $password in element "xPath://input[@type='password']" in web browser within 10 seconds
+			And I type $password in element "xPath://input[@type='password']" in web browser within 10 seconds
 			And I click element "text:Login" in web browser
 			Once I do not see element "text:Login" in web browser
 
 	@wip
-	Scenario: the Orders page is displayed  
+	Scenario: the Orders page is displayed 
 		Then I see element "text:Orders" in web browser within 10 seconds
 	
 	@wip
@@ -37,22 +37,22 @@ Feature: Grocer IO - Add New Order Steps
 	Scenario: I enter valid new order information
 		When I type $customer_name in element "name:order_customer" in web browser within 10 seconds
 		And I type $order_number in element "name:order_number" in web browser within 10 seconds
-	    And I type $price in element "name:order_price" in web browser within 10 seconds
+		And I type $price in element "name:order_price" in web browser within 10 seconds
 
-	@wip 
+	@wip
 	Scenario: I click the Add button on the Add New Order window
 		When I click element "xPath://button[text()='Add']" in web browser within 10 seconds
 		Once I do not see element "xPath://button[text()='Add']" in web browser
 		
 	@wip
 	Scenario: the newly added order appears in the order list on the Order page
-        Then I see $order_number in web browser within 10 seconds
-        And I see $customer_name in web browser within 10 seconds
-        And I see $price in web browser within 10 seconds
+		Then I see $order_number in web browser within 10 seconds
+		And I see $customer_name in web browser within 10 seconds
+		And I see $price in web browser within 10 seconds
 
-	@wip 
+	@wip
 	Scenario: I logout of Grocer IO
 		When I click element "className:user" in web browser within 10 seconds
 		And I click element "text:Logout" in web browser within 10 seconds
-        And I see element "text:Email" in web browser within 10 seconds
-		And I close web browser        
+		And I see element "text:Email" in web browser within 10 seconds
+		And I close web browser		
