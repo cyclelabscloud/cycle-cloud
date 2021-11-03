@@ -1,2 +1,3 @@
 # .gitignore for cycle-cloud open source project
 *.cycuser
+Output/*
