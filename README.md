@@ -1,4 +1,4 @@
-# **Try Cycle Cloud for Free**
+# **Create a Free Cycle Cloud Account**
 
 [![Sign up for Cycle](https://cyclelabsprod.blob.core.windows.net/images/sign-up-btn.png)](https://app.cyclelabs.io)
 
